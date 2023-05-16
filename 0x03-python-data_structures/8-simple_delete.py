@@ -1,5 +1,8 @@
 #!/usr/bin/python3
-def simple_delete(a_dictionary, key=""):
-    if a_dictionary.get(key) is not None:
-        del a_dictionary[key]
-    return (a_dictionary)
+
+
+def multiple_returns(sentence):
+    """Returns the length of a string and its first character."""
+    if sentence == "":
+        return (0, None)
+    return (len(sentence), sentence[0])
