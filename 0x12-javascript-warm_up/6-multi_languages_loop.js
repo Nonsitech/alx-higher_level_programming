@@ -1,4 +1,11 @@
 #!/usr/bin/node
-for (const line of ['C is fun', 'Python is cool', 'Javascript is amazing']) {
-  console.log(line);
+
+// Array of strings
+const languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+
+let i;
+
+// Loop through the array and print each line
+for (i = 0; i < languages.length; i++) {
+  console.log(languages[i]);
 }
